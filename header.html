@@ -1,0 +1,150 @@
+<!-- Top-navigation -->
+<div class="top-header" id="th">
+    <div class="ht-social">
+        <a href="https://facebook.com/mahesh.dagar.70" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/mkdagarkr" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/mahesh_dagar_70" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCi2FeXpKkIgs61N4PTB_StA" target="_blank"><i
+                class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="search-box">
+        <input type="search" name="searchbox" placeholder="    Search products">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="ht-information">
+        <ul>
+            <li><a href="#" id="phone_number"><i class="fa-solid fa-square-phone"></i>+91-9008008085</a></li>
+            <li><a href="seller.html">Sell on Company</a></li>
+            <li><a href="#">Download App</a></li>
+            <li><img src="image/india.png" id="flag_icon" alt="indiaflag-icon"></li>
+            <li>
+                <form action="#">
+                    <select name="country" id="select_country">
+                        <option value="india">INDIA</option>
+                        <option value="uk">UK</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- Main-navigation -->
+<div class="buttom_header" id="hb">
+    <div class="logo-icon">
+        <img src="image/logo.png" id="logo" alt="logo of swage of india">
+    </div>
+    <div class="bhinfo">
+        <ul>
+            <li><a href="index.html" id="home1">Home</a></li>
+            <li><a href="index.html">Categories</a></li>
+            <li><a href="index.html">Latest</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="index.html">Pages</a></li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="hcart-icon">
+        <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+    <div class="sign">
+        <label type="submit" class="button" id="hbsign-in" for="login1">Sign In</label>
+    </div>
+</div>
+
+
+<label class="btn btn-outline-dark text-white" for="register2" style="display: none;">Sign Up</label>
+<input type="checkbox" name="register" id="register2">
+<input type="checkbox" name="login" id="login1">
+<div class="modal-bg"></div>
+<div class="signin1">
+    <label for="login1" class="modal-close1">&times;</label>
+    <h2>MEMBER LOGIN</h2>
+    <form action="#">
+        <div class="signin-form1">
+            <label for="emailid1"><i class="fa-solid fa-user"></i></label>
+            <input type="email" name="form-control1" id="emailid1" placeholder="User id">
+        </div>
+        <div class="signin-form2">
+            <label for="password1"><i class="fa-solid fa-lock"></i></label>
+            <input type="password" name="form-control1" id="password1" placeholder="Enter Password">
+            <a href="#">Forgot Password?</a>
+        </div>
+        <label for="login1" class="modalclosebylogin">Log In</label><br>
+
+        <hr>
+        <label for="register2" class="Registerforsoi">Register</label>
+    </form>
+</div>
+<div class="signup2">
+    <label for="register2" class="modal-close1">&times;</label>
+    <h2>SIGN UP</h2>
+    <form action="#">
+        <div class="signin-form3">
+            <input type="text" name="form-control1" id="name1" placeholder="Enter full name">
+        </div>
+        <div class="signin-form4">
+            <input type="email" name="form-control1" id="userid1" placeholder="Enter user id">
+        </div>
+        <div class="signin-form5">
+            <input type="password" name="form-control1" id="password2" placeholder="Create Password">
+        </div>
+        <div class="signin-form6">
+            <input type="password" name="form-control1" id="cpassword" placeholder="Confirm Password">
+        </div>
+        <label for="register2" class="modalclosebysignup">Sign Up</label>
+        <div class="orhr">
+            -------------------or sign up with-------------------
+        </div>
+        <div class="registerwithsocial">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="alreadyaccount">
+            <span class="allaccount"> Already have an account? </span>
+            <span><label for="register2" class="log1">Log In</label></span>
+        </div>
+    </form>
+</div>
+
+<!-- <script src="js/temp.js"></script> -->
+
+<script>
+    let flagImg = ["image/india.png", "image/uk.png", "image/usa.png"];
+    let selectCountry = document.querySelector("select");
+    let selectFlag = document.getElementById("flag_icon");
+
+    selectCountry.addEventListener("change", changeflag);
+
+    function changeflag() {
+        let choice = selectCountry.value;
+
+        if (choice === "india") {
+            selectFlag.src = flagImg[0];
+            document.getElementById("phone_number").textContent = '+91-9008008085';
+        }
+        else if (choice === "uk") {
+            selectFlag.src = flagImg[1];
+            document.getElementById("phone_number").textContent = '+44-9008008085';
+        }
+        else if (choice === "usa") {
+            selectFlag.src = flagImg[2];
+            document.getElementById("phone_number").textContent = '+1-9008008085';
+        }
+    }
+
+
+    const nav = document.querySelector(".buttom_header");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 52) {
+            nav.classList.add('stickynav');
+        }
+        else {
+            nav.classList.remove("stickynav");
+        }
+    })
+
+</script>
