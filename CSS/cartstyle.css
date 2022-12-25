@@ -1,0 +1,223 @@
+.cart-width{
+    width: 80%;
+    margin: 3vw 10vw 5vw 10vw;
+}
+
+.mycart{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.mycart-item{
+    display: flex;
+    align-items:baseline;
+}
+.mycart-item h5{
+    margin-right: 1vw;
+    color: #1dd1a1;
+}
+
+.button:hover{
+    border: 1px solid #1dd1a1;
+    background-color: white;
+    color: #1dd1a1;
+}
+
+
+.addcart-width{
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* Cart Products */
+
+.addcartproduct1{
+    width: 55vw;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 20px;
+}
+.cartpdtdiscription{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartimg{
+    width: 180px;
+    height: 200px;
+    margin: 28px 25px 30px 50px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.cartimgdis{
+    margin-top: 30px;
+    margin-right: 112px;
+}
+
+.imgcartcolor, .cartpdtsold{
+    color: gray;
+}
+.cartpdtsize{
+    display: flex;
+    align-items: baseline;
+}
+.cartpdtsize > p{
+    margin-right: 5px;
+}
+
+/* .pdtqty{
+    margin-top: 5px;
+} */
+.plusminusqty{
+    display: flex;
+}
+.ctminus{
+    width: 28px;
+    height: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:400;
+    font-size: 35px;
+    cursor: pointer;
+    padding-bottom: 5px;
+
+}
+.ctqty{
+    width: 35px;
+    height: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:400;
+    /* font-size: 35px; */
+}
+.ctplus{
+    width: 28px;
+    height: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:400;
+    font-size: 30px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.ctpdrs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ctpriceaftdis{
+    font-weight: bold;
+    margin-right: 1px;
+}
+.discountcartpriceoffer{
+    display: flex;
+    margin-right: 1px;
+    font-weight: bold;
+}
+.discountcartpriceoffer > p{
+    margin-left: 3px;
+    color:#1dd1a1;
+}
+
+.removecart{
+    display: flex;
+    margin: 10px auto 10px 35px;
+    
+}
+.cremove{
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.slash{
+    margin-right: 25px;
+    color: rgba(128, 128, 128, 0.7);
+}
+.movetowishlist{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* coupon card style */
+#cartcoupon{
+    width: 28% ;
+    height: 500px;
+}
+.cartcoupon1{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+#cartcoupon > h6{
+    font-weight:bold;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+
+.couponapply{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+.couponapply h6{
+    margin-right: 1.5vw;
+}
+.cartPriceDetails{
+    margin-left: 1vw;
+    font-weight: bold;
+}
+
+.pricedetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+}
+#dcPriceDetails, #disPriceDetails{
+    color: green;
+}
+#dcPriceDetails > del{
+    margin-right: 5px;
+    color: black;
+}
+#cdisPriceDetails{
+    color: #1dd1a1;
+}
+.ca-btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.ca-btn2{
+    height: 50px;
+    width: 270px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #1dd1a1;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ca-btn2:hover{
+    background-color: white;
+    color: #1dd1a1;
+    border: 1px solid #1dd1a1;
+}

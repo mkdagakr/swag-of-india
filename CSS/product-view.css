@@ -1,0 +1,382 @@
+#pv-bread{
+    background-color: #1dd1a1;
+    padding-left: 15vw;
+}
+
+.pv-width{
+
+    width: 70vw;
+    margin: 1vw 15vw 1vw 15vw;
+    display: flex;
+}
+.pvimg{
+    display: flex;
+}
+.pv-product{
+    display: flex;
+    flex-direction: column;
+}
+.pv-product img{
+    width: 70px;
+    height: 70px;
+    margin-top: 1vw;
+}
+.pv-mainproduct{
+    margin: 1vw;
+}
+
+.pv-info{
+    margin: 1vw;
+}
+.pv-info-row1 h5{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.starate i{
+    color: gold;
+}
+
+.rate-vp{
+    color: green;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+.vp-hypen{
+    margin-left: 1vw;
+    color: gray;
+}
+
+.pv-info-row2 p{
+    margin-top: 1vw;
+}
+
+.pv-info-row3 h5{
+    margin-top: 3vw;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pv-info-row4 p{
+    font-size: 14px;
+}
+
+.pv-info-row5{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pv-size h5{
+        font-weight: bold;
+        font-size: 14px;
+}
+
+.pv-size-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pv-size-btn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.pv-size-btn span:hover{
+    color: white;
+    background-color: #1dd1a1;
+}
+
+.pv-quantity h5{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pv-plus-minus{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.minus{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40px;
+    height: 35px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.pv-qty{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 60px;
+    height: 35px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: text;
+}
+
+.plus{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 40px;
+    height: 35px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.minus:hover, .plus:hover{
+    background-color: #1dd1a1;
+    color: white;
+}
+
+.pv-info-row6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5vw;
+}
+
+.pv-btn{
+    height: 60px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #1dd1a1;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pv-btn:hover{
+    background-color: white;
+    color: #1dd1a1;
+    border: 1px solid #1dd1a1;
+}
+
+.pv-info-row6 i{
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #1dd1a1;
+    color: white;
+
+}
+
+.pv-info-row6 i:hover{
+    background-color: white;
+    color:#1dd1a1;
+    border: 1px solid #1dd1a1 ;
+}
+
+.pv-info-row7{
+    display: flex;
+    margin-top: 1vw;
+}
+.pv-info-row7 h6{
+    margin-top: 1vw;
+}
+
+.pv-info-row7 a{
+    text-decoration: none;
+    margin-left: 1vw;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.pv-info-row8{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 1vw;
+}
+.pv-truck, .pv-support{
+    display: flex;
+    align-items: center;
+}
+
+.pv-truck i{
+    font-size: 28px;
+    margin-right: 5px;
+}
+.pv-truck p{
+    font-size: 12px;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+.pv-support i{
+    font-size: 28px;
+    margin-left: 60px;
+    margin-right: 5px;
+}
+.pv-support p{
+    font-size: 12px;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+.all-info-pv{
+    width: 70vw;
+    margin: 1vw 15vw 2vw 15vw;
+}
+.pv-info-many,
+ .pv-info-si, .pv-info-ign,
+.pv-info-cust, .pv-info-ription{
+    display: none;
+}
+
+.pv-info-list ul{
+    display: flex;
+    align-items: center;
+}
+
+.pv-info-list ul li{
+    /* background-color: red; */
+    font-weight: bold;
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.pv-label{
+    cursor: pointer;
+}
+
+#pv-info-description:checked ~ .pv-info-ription{
+    display: contents;
+}
+
+
+#pv-info-guide:checked ~ .pv-info-si{
+    display: contents;
+}
+
+
+#pv-info-assigned:checked ~ .pv-info-ign{
+    display: contents;
+}
+
+#pv-info-tabs:checked ~ .pv-info-cust{
+    display: contents;
+}
+
+#pv-info-description:checked ~ .pv-info-list ul li .label1{
+    border-bottom: 5px solid #1dd1a1;
+}
+#pv-info-guide:checked ~ .pv-info-list ul li .label2{
+    border-bottom: 5px solid #1dd1a1;
+}
+#pv-info-assigned:checked ~ .pv-info-list ul li .label3{
+    border-bottom: 5px solid #1dd1a1;
+}
+#pv-info-tabs:checked ~ .pv-info-list ul li .label4{
+    border-bottom: 5px solid #1dd1a1;
+}
+
+.pv-related-p{
+    width: 70vw;
+    margin: 5vw 15vw 10vw 15vw;
+}
+
+.pv-image-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+}
+
+#vp-product2, #vp-product21, #vp-product3, #vp-product31{
+    width: 250px;
+    cursor: pointer;
+}
+
+.vp-product2, .vp-product3{
+    width: 251.5px;
+    height: 400px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.vp-star-icon{
+    color: gold;
+}
+
+.vp-animate{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 250px;
+    height: 260px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.7) ;
+    /* visibility: hidden; */
+    opacity: 0;
+    z-index: -1;
+    transition: .1s;
+}
+
+.vp-product2:hover .vp-animate{
+    /* visibility: visible; */
+    opacity: 1;
+    z-index: 1000;
+}
+.vp-product3:hover .vp-animate{
+    /* visibility: visible; */
+    opacity: 1;
+    z-index: 1000;
+}
+
+.vp-animate a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    margin: 1vw;
+    border-radius: 50%;
+    border: 1px solid #1dd1a1;
+    color: #1dd1a1;
+    background-color: white;
+    text-decoration: none;
+    width: 4vw;
+    height: 4vw;
+}
+
+.vp-animate a:hover{
+    background-color: #1dd1a1;
+    color: white;
+    border: none;
+}

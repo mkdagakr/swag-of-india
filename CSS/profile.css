@@ -1,0 +1,294 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.profile_information {
+    width: 70vw;
+    margin: 3vw 15vw 15vw 15vw;
+    display: grid;
+    grid-template-columns: 300px auto;
+
+}
+
+.act {
+    background-color: #10ac84;
+    height: 25px;
+    width: 200px;
+}
+
+.active {
+    color: white;
+}
+
+.active:hover{
+    color: white;
+    font-size: 16.5px;
+}
+
+.inactive{
+    color: black;
+}
+
+.inactive:hover{
+    font-size:16.5px;
+    color: #10ac84;
+}
+
+.accdetail ul li {
+    text-decoration: none;
+}
+
+.bold_itm {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.accdetail ul li img {
+    width: 50px;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+}
+
+.orders {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.orders ul li {
+    margin-top: .3vw;
+}
+
+.orders ul li a {
+    text-decoration: none;
+}
+
+.account {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.account ul li {
+    margin-top: .3vw;
+}
+
+.account ul li a {
+    text-decoration: none;
+}
+
+.payment {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.payment ul li {
+    margin-top: .3vw;
+}
+
+.payment ul li a {
+    text-decoration: none;
+}
+
+.myprofile{
+    color: #10ac84;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.profiledet{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.gray{
+    color: gray;
+}
+
+.profileitm{
+    height: 60px;
+}
+
+.butt{
+    margin-left: 150px;
+}
+
+.butt:hover{
+    background-color: white;
+    color: #10ac84;
+    border: 1px solid #10ac84;
+}
+
+.topWishlistStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myWishList{
+    font-weight: 500;
+}
+.heart-Ic-Ad{
+    display: flex;
+}
+.heartIcon{
+    margin-right: .5vw;
+    color: #10ac84;
+}
+#wishlistShortFilter{
+    margin-left: .5vw;
+    font-weight: 500;
+    padding: .1vw .5vw .1vw .5vw;
+}
+
+.myWishListItemAdd{
+    margin-top: 1vw;
+}
+
+.myWishListItem{
+    margin-top: 1vw;
+}
+.myWishListView{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.myItemImg{
+    margin-right: 50px;
+}
+#myItemImg1{
+    width: 170px;
+    height: 180px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.pdtDescription{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.pdtStarWish{
+    color: gold;
+    margin-bottom: 6px;
+}
+.pdtPriceDis{
+    display: flex;
+    margin-bottom: 6px;
+}
+.pdtRsPri{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.pdtRealPri{
+    color: gray;
+    margin-right: 5px;
+}
+.pdtOfferPtg{
+    color: #10ac84;
+    font-weight: 500;
+}
+.pdtSelectPc{
+    margin-bottom: 10px;
+}
+#pdtPack{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.addCartRemove{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.addCartbtn{
+    width: 100px;
+    height: 40px;
+    background-color: #10ac84;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.addCartbtn:hover{
+    color: #10ac84;
+    background-color: white;
+    border: 1px solid #10ac84;
+}
+.removeWishList{
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    color: gray;
+    font-size: 17px;
+}
+.removeWishList:hover{
+    font-size: 17.5px;
+    color: #10ac84;
+}
+
+/* myorder style */
+
+.myOdDescription{
+    margin-top: 10px;
+    width: 300px;
+}
+.myOdDescription2{
+    margin-top: 10px;
+    width: 100px;
+}
+.myOdDescription3{
+    margin-top: 10px;
+}
+
+.myOdImg{
+    margin-right: 20px;
+}
+
+.myOdfo{
+    font-size: 14px;
+    font-weight: 400;
+}
+.myOdDes{
+    font-size: 15px;
+}
+#myItemImg2{
+    width: 100px;
+    height: 110px;
+}
+.myOdCiDe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-circle{
+    color: rgba(0, 128, 0, 0.5);
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.myOdDes{
+    font-weight: 500;
+}
+.myOdfo1{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.myOdTr{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.mo-script{
+    font-size: 20px;
+    color: #10ac84;
+    font-weight: bold;
+}

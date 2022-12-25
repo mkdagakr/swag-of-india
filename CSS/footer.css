@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.foot{
+    margin-top: 15vh;
+    width: 70vw;
+    margin: 1vh 15vw;
+}
+.footer-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.footer-information .foot-info{
+    cursor: text;
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+}
+
+.footer-information .foot-info h3{
+    font-weight: bolder;
+    font-size: 1vw;
+}
+
+.footer-information .foot-info a{
+    text-decoration: none;
+    color: grey;
+    font-size: .85vw;
+    padding-top: 2vh;
+    cursor: pointer;
+}
+.footer-information .foot-info a:hover{
+    color: #1dd1a1;
+    font-size: .9vw;
+    font-weight: bolder;
+}
+.subscribe-email{
+    display: flex;
+    margin-top: 1vw;
+}
+.subscribe-email .button{
+    width: 6vw;
+    height: 4vh;
+    font-size: .8vw;
+    border-radius: .1vw;
+    background-color: red;
+    border: 0px solid red;
+}
+
+.subscribe-email #subscribe:hover{
+    background-color: #1dd1a1;
+    border: 1px solid #1dd1a1;
+}
+.subscribe-email input{
+    width: 7vw;
+}
+
+.fdownload span{
+    font-size: .85vw;
+    margin-top: 1vw;
+    color: gray;
+}
+
+
+.fdownload #fapp{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.foot hr{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5vw;
+}
+#fcopyright{
+    color: gray;
+    font-size: .8vw;
+    font-weight: bolder;
+}
+.fsocial-icon{
+    margin-right: .1vw;
+    margin-left: auto;
+}
+.fsocial-icon a{
+    cursor: pointer;
+    padding-left: 1vw;
+    color: black;
+    text-decoration: none;
+}
+.fsocial-icon a:hover{
+    color: blue;
+}
+
+
